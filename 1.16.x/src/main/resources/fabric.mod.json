@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "healthfixer",
+	"version": "${version}",
+	"name": "healthfixer",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"deb2y"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/healthfixer/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.deb2y.healthfixer.Healthfixer"
+		]
+	},
+	"mixins": [
+		"healthfixer.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": ">=1.16.1 <=1.16.5",
+		"java": ">=8",
+		"fabric": "*"
+	}
+}
