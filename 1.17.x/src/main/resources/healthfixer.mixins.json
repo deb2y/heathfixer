@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.deb2y.healthfixer.mixin",
+	"compatibilityLevel": "JAVA_16",
+	"mixins": [
+		"LivingEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
