@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "healthfix",
+	"version": "${version}",
+	"name": "HealthFix",
+	"description": "A simple mod to properly display the health of players.",
+	"authors": [
+		"deb2y"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/healthfix/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.deb2y.healthfixer.HealthFix"
+		]
+	},
+	"mixins": [
+		"healthfix.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
